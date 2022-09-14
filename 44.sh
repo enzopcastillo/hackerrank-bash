@@ -2,7 +2,8 @@
 #With a space between each of the countries' names.
 
 readarray array
-for element in ${array[@]} 
+
+for i in ${array[@]} 
     do 
-        echo -ne "$element "
+        echo -ne "$i "
     done
